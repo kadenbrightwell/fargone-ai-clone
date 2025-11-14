@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"stw_set_list",
   "name":"stw_set_list",
   "parent":{

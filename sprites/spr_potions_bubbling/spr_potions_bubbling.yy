@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_potions_bubbling",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6a6d2b38-74d5-4f80-955c-68b53690767f","name":"6a6d2b38-74d5-4f80-955c-68b53690767f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"157b028e-bcd4-4015-9c69-19926ab9af7f","name":"157b028e-bcd4-4015-9c69-19926ab9af7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"40866636-aac9-47cc-8be8-043fa959d439","name":"40866636-aac9-47cc-8be8-043fa959d439","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2d97d018-c2d9-449b-b254-5fd70f257a66","name":"2d97d018-c2d9-449b-b254-5fd70f257a66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"43d8920f-1a31-44cf-a82a-953f2381a285","name":"43d8920f-1a31-44cf-a82a-953f2381a285","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a0739c24-d433-433d-8d30-b74cf66efc84","name":"a0739c24-d433-433d-8d30-b74cf66efc84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"16bc2842-ffe3-4052-9929-6837bc220ed8","name":"16bc2842-ffe3-4052-9929-6837bc220ed8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a6d2b38-74d5-4f80-955c-68b53690767f","name":"6a6d2b38-74d5-4f80-955c-68b53690767f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"157b028e-bcd4-4015-9c69-19926ab9af7f","name":"157b028e-bcd4-4015-9c69-19926ab9af7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40866636-aac9-47cc-8be8-043fa959d439","name":"40866636-aac9-47cc-8be8-043fa959d439","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d97d018-c2d9-449b-b254-5fd70f257a66","name":"2d97d018-c2d9-449b-b254-5fd70f257a66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43d8920f-1a31-44cf-a82a-953f2381a285","name":"43d8920f-1a31-44cf-a82a-953f2381a285","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0739c24-d433-433d-8d30-b74cf66efc84","name":"a0739c24-d433-433d-8d30-b74cf66efc84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"16bc2842-ffe3-4052-9929-6837bc220ed8","name":"16bc2842-ffe3-4052-9929-6837bc220ed8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,27 +76,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a6d2b38-74d5-4f80-955c-68b53690767f","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8b6c3f3a-da1f-4e1f-9a88-35a743440644","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"157b028e-bcd4-4015-9c69-19926ab9af7f","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f8977ff6-4dcf-4779-be9a-d9d8077d3d93","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40866636-aac9-47cc-8be8-043fa959d439","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"29df97ce-1775-4c0a-a99f-bb1548379f0b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d97d018-c2d9-449b-b254-5fd70f257a66","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"34c797cb-9c3d-4af2-8ab8-55634fa80eb0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43d8920f-1a31-44cf-a82a-953f2381a285","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4699f92a-03bf-4f5c-beee-2efcfddab0e2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0739c24-d433-433d-8d30-b74cf66efc84","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"afeb191d-87a3-4012-bee3-4f8aaeb6f50b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16bc2842-ffe3-4052-9929-6837bc220ed8","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7470e137-9223-4bc3-a50e-1131da5204f5","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a6d2b38-74d5-4f80-955c-68b53690767f","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8b6c3f3a-da1f-4e1f-9a88-35a743440644","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"157b028e-bcd4-4015-9c69-19926ab9af7f","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f8977ff6-4dcf-4779-be9a-d9d8077d3d93","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40866636-aac9-47cc-8be8-043fa959d439","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"29df97ce-1775-4c0a-a99f-bb1548379f0b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2d97d018-c2d9-449b-b254-5fd70f257a66","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"34c797cb-9c3d-4af2-8ab8-55634fa80eb0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"43d8920f-1a31-44cf-a82a-953f2381a285","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4699f92a-03bf-4f5c-beee-2efcfddab0e2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a0739c24-d433-433d-8d30-b74cf66efc84","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"afeb191d-87a3-4012-bee3-4f8aaeb6f50b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"16bc2842-ffe3-4052-9929-6837bc220ed8","path":"sprites/spr_potions_bubbling/spr_potions_bubbling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7470e137-9223-4bc3-a50e-1131da5204f5","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

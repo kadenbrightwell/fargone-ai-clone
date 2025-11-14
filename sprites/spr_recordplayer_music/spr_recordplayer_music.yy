@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_recordplayer_music",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2359af7e-b979-4875-b94b-3ab05472ab7d","name":"2359af7e-b979-4875-b94b-3ab05472ab7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cff8ce41-8278-412b-8dc3-c6b710532498","name":"cff8ce41-8278-412b-8dc3-c6b710532498","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2359af7e-b979-4875-b94b-3ab05472ab7d","name":"2359af7e-b979-4875-b94b-3ab05472ab7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cff8ce41-8278-412b-8dc3-c6b710532498","name":"cff8ce41-8278-412b-8dc3-c6b710532498","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -80,39 +80,17 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"146b6556-c3ce-489e-9625-12ddd28d7d56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c3f9104-c1bd-4b88-a4b1-eb398b97c14e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6b3a2582-da41-4750-a5ef-0572031d151d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ef08c209-0001-42dc-b389-71b3b260f084","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2359af7e-b979-4875-b94b-3ab05472ab7d","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0490f62e-c80b-4b70-b720-fe9ee2a8d9fa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cff8ce41-8278-412b-8dc3-c6b710532498","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e469a207-3662-4827-8d59-c054ed1e21ed","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e918ccae-74f3-45c8-ae46-f8c80e4525ea","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"eed62caf-2b64-4753-a401-201e4c9e7ded","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"15b00efb-e9a2-41b0-a332-883034977139","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1a24dc92-1b6f-4b12-bc8b-3305e6e1756e","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6531d7cb-0c22-4a04-a8f2-e74a4d37f0cf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"939b772a-9bd0-4a0e-87a0-2a46a472b9b3","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"146b6556-c3ce-489e-9625-12ddd28d7d56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9eb61d5-e638-42e4-a5ca-0fe0b407988a","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3c3f9104-c1bd-4b88-a4b1-eb398b97c14e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e88ea32d-5f68-4523-ba80-62a2528ddd64","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6b3a2582-da41-4750-a5ef-0572031d151d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2c2a8cd4-ba41-4996-9613-6997f92257a7","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ef08c209-0001-42dc-b389-71b3b260f084","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2359af7e-b979-4875-b94b-3ab05472ab7d","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0490f62e-c80b-4b70-b720-fe9ee2a8d9fa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cff8ce41-8278-412b-8dc3-c6b710532498","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e469a207-3662-4827-8d59-c054ed1e21ed","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e750b22-3970-46f5-914a-1f4bb82d69ac","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e918ccae-74f3-45c8-ae46-f8c80e4525ea","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac3c8e63-bcac-4d5f-9bed-086c57d97fcc","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eed62caf-2b64-4753-a401-201e4c9e7ded","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbf97885-f719-4ec6-9d5e-e1144ecf2c89","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"15b00efb-e9a2-41b0-a332-883034977139","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d165a73-dc1b-4259-989e-1b53e86c9b1a","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1a24dc92-1b6f-4b12-bc8b-3305e6e1756e","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"deae5bec-1c0d-4e5a-8a3a-0573b8b4f746","path":"sprites/spr_recordplayer_music/spr_recordplayer_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6531d7cb-0c22-4a04-a8f2-e74a4d37f0cf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

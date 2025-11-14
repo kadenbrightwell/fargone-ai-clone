@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_gm_ut_bt",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":57.72,
+  "exportDir":"",
   "name":"snd_gm_ut_bt",
   "parent":{
     "name":"TESTING",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_gm_ut_bt.mp3",
-  "type":0,
   "volume":1.0,
 }

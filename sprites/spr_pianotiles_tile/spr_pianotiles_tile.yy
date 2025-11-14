@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pianotiles_tile",
   "bboxMode":0,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"82b0efbc-3bc5-4d02-ab6c-4deb0c8b351c","name":"82b0efbc-3bc5-4d02-ab6c-4deb0c8b351c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"82b0efbc-3bc5-4d02-ab6c-4deb0c8b351c","name":"82b0efbc-3bc5-4d02-ab6c-4deb0c8b351c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

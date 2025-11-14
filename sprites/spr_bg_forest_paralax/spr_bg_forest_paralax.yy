@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bg_forest_paralax",
   "bboxMode":0,
   "bbox_bottom":215,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"44029ec2-4d4b-42e6-9674-b81f60e4ebd8","name":"44029ec2-4d4b-42e6-9674-b81f60e4ebd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44029ec2-4d4b-42e6-9674-b81f60e4ebd8","name":"44029ec2-4d4b-42e6-9674-b81f60e4ebd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

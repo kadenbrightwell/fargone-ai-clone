@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_battle_1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":53.326668,
+  "duration":53.336826,
+  "exportDir":"",
   "name":"snd_battle_1",
   "parent":{
     "name":"Ice Cream",
@@ -19,7 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_battle_1",
-  "type":0,
+  "soundFile":"snd_battle_1.ogg",
   "volume":1.0,
 }
