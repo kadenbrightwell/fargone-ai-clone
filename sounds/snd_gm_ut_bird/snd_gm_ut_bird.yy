@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_gm_ut_bird",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":25.2,
+  "name":"snd_gm_ut_bird",
+  "parent":{
+    "name":"TESTING",
+    "path":"folders/Sounds/Music/Game Music/TESTING.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gm_ut_bird.mp3",
+  "type":0,
+  "volume":1.0,
+}

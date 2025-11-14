@@ -1,0 +1,7 @@
+target_x = 144;
+target_y = 24;
+target_rm = rm_inventory_test;
+target_dir = DOWN;
+
+room_color = #000000;
+target_color = #FFFFFF;

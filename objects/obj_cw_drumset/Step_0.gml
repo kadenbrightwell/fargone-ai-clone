@@ -1,0 +1,1 @@
+if(global.spk_song_playing){visible=false;}else{visible=true;}

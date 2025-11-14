@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"stw_set_list",
+  "name":"stw_set_list",
+  "parent":{
+    "name":"STW",
+    "path":"folders/Sounds/Music/Speakeasy/STW.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

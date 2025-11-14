@@ -1,0 +1,15 @@
+Order: 
+ 1. American Spirits
+ 2. Maria
+ 3. TG
+ 4. FT
+ 5. SS
+ 6. TBY
+ 7. P
+ 8. BD
+ 9. IDGALOS
+ 10. DE
+ 11. ATT
+
+Unused:
+ - Maria (Live from the Garage)

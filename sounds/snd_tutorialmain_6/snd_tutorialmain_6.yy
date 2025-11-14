@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_tutorialmain_6",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":65.35401,
+  "name":"snd_tutorialmain_6",
+  "parent":{
+    "name":"tutorialmain",
+    "path":"folders/Sounds/Function/In-Game/Rooms/tutorialmain.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_tutorialmain_6.mp3",
+  "type":0,
+  "volume":1.0,
+}

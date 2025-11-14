@@ -1,0 +1,1 @@
+if(global.spk_song_playing){sprite_index=spr_cw_drummer_anim;}else{sprite_index=spr_cw_drummer;}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_minigamehandler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_minigamehandler",
+  "parent":{
+    "name":"Minigames",
+    "path":"folders/Scripts/Brightwell/Minigames.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

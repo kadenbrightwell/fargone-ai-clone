@@ -1,0 +1,2 @@
+PLAYER.x = -800;
+PLAYER.y = -800;

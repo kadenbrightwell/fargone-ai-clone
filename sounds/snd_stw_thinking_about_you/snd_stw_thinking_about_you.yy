@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_stw_thinking_about_you",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":316.0,
+  "name":"snd_stw_thinking_about_you",
+  "parent":{
+    "name":"STW",
+    "path":"folders/Sounds/Music/Speakeasy/STW.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_stw_thinking_about_you.wav",
+  "type":0,
+  "volume":1.0,
+}

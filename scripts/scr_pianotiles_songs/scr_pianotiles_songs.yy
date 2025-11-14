@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pianotiles_songs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pianotiles_songs",
+  "parent":{
+    "name":"Minigames",
+    "path":"folders/Scripts/Brightwell/Minigames.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

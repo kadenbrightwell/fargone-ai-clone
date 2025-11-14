@@ -1,0 +1,1 @@
+if(!BATTLING){room_goto_next();}

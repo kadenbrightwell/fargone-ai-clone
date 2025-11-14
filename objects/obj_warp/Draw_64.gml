@@ -1,0 +1,2 @@
+draw_set_color(t_color); // Set the drawing color to the interpolated color
+draw_sprite_tiled_ext(sprite_index, image_index, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), 4, 4, t_color, 1); // Draw the sprite tiled with t_color

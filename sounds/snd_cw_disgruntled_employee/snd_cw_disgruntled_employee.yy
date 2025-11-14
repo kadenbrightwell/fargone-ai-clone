@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_cw_disgruntled_employee",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":304.032,
+  "name":"snd_cw_disgruntled_employee",
+  "parent":{
+    "name":"Cursewords",
+    "path":"folders/Sounds/Music/Radio/Cursewords.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_cw_disgruntled_employee.mp3",
+  "type":1,
+  "volume":1.0,
+}

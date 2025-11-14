@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_gm_ut_bt",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":57.72,
+  "name":"snd_gm_ut_bt",
+  "parent":{
+    "name":"TESTING",
+    "path":"folders/Sounds/Music/Game Music/TESTING.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gm_ut_bt.mp3",
+  "type":0,
+  "volume":1.0,
+}

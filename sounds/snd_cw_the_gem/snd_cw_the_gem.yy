@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_cw_the_gem",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":215.064,
+  "name":"snd_cw_the_gem",
+  "parent":{
+    "name":"Cursewords",
+    "path":"folders/Sounds/Music/Radio/Cursewords.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_cw_the_gem.mp3",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,1 @@
+if(true){room_goto_next();}

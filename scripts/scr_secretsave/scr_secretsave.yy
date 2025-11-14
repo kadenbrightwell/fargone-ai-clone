@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_secretsave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_secretsave",
+  "parent":{
+    "name":"Brightwell",
+    "path":"folders/Scripts/Brightwell.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

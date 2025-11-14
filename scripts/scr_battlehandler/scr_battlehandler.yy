@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_battlehandler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_battlehandler",
+  "parent":{
+    "name":"Battles",
+    "path":"folders/Scripts/Brightwell/Battles.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
