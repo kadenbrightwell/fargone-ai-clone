@@ -16,17 +16,18 @@ switch(room){
 	case rm_pianotiles:
 		// Instant reset to the original zoom level if not in the specific room
 		zoom_current = 1;
+		break;
 		
 	case rm_battle:
 		// Instant reset to the original zoom level if not in the specific room
 		zoom_current = 1;
+		break;
 		
 	default:
 		// Lerp reset to the original zoom level if not in the specific room
 		zoom_current = lerp(zoom_current, 1.0, zoom_speed);
 		break;
 }
-show_debug_message("zoom_current: " + string(zoom_current));
 
 // Apply the zoom to the camera
 var _cam = view_camera[0]; // Assuming the camera is the default view camera

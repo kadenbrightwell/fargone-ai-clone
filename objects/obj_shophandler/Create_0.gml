@@ -51,6 +51,8 @@ st_option_number = 0;
 dialogue_temp_array = [];
 in_dialogue = false;
 
+navigation_cooldown = 0;
+
 
 
 shop_text_setup = false;

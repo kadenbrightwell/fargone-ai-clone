@@ -1,30 +1,33 @@
 var _pct = current_tab;
 
-if(LEFT_KEY && current_tab>0) current_tab--;
-if(RIGHT_KEY && current_tab<4) current_tab++;
+//tab switching with cooldown
+if(navigation_cooldown <= 0){
+	if(LEFT_KEY && current_tab>0){
+		current_tab--;
+		navigation_cooldown = 10;
+	}
+	if(RIGHT_KEY && current_tab<4){
+		current_tab++;
+		navigation_cooldown = 10;
+	}
+	//shoulder button tab switching
+	if(SHOP_TAB_PREV && current_tab>0){
+		current_tab--;
+		navigation_cooldown = 10;
+	}
+	if(SHOP_TAB_NEXT && current_tab<4){
+		current_tab++;
+		navigation_cooldown = 10;
+	}
+} else {
+	navigation_cooldown--;
+}
 
 if(_pct != current_tab) {
-	show_debug_message("Current Tab: "+string(current_tab));
-	
 	item_option = 0;
 	item_page = 0;
 	in_dialogue = false;
 }
-
-
-/*
-for(var _p = 0; _p<array_length(items_temp_array); _p++){
-	var __x1 = outer_padding
-	var __y1 = shop_text_upper_y+outer_padding+(inner_padding*_p);
-	var __is = items_temp_array[_p].item.name;
-	var __tw = view_wport-(outer_padding*2);
-	
-	draw_text_ext(__x1, __y1, __is, 2, __tw);
-}
-*/
-
-
-
 
 /*-------------------ITEMS---------------*/
 
@@ -53,28 +56,20 @@ if(current_tab==0){
 	_temp_items_array = items_temp_sell_array;
 	var _temp_temp_items_array = [];
 	
-	for(var _ai = array_length(_temp_items_array)-1; _ai>0; _ai--){
+	for(var _ai = array_length(_temp_items_array)-1; _ai>=0; _ai--){
 		var _si = _temp_items_array[_ai];
-		
-		show_debug_message("_ai: " + string(_ai));
-		show_debug_message("_si: " + string(_si));
 		
 		for(var _ii = 0; _ii < PLAYERINVCOUNT; _ii++){
 			var _inv_i = PLAYERINV[_ii];
 			
-			show_debug_message("_ii: " + string(_ii));
-			show_debug_message("_inv_i: " + string(_inv_i));
-			
 			if(_inv_i==_si){
 				array_push(_temp_temp_items_array, _si);
+				break;
 			}
 		}
 	}
 	
 	_temp_items_array = _temp_temp_items_array;
-	
-	show_debug_message("_temp_temp_items_array: " + string(_temp_items_array));
-	show_debug_message("_temp_items_array: " + string(_temp_items_array));
 }
 
 if(current_tab==3){
@@ -83,9 +78,18 @@ if(current_tab==3){
 	array_delete(dialogue_temp_array, 0, array_length(dialogue_temp_array));
 	array_copy(dialogue_temp_array, 0, shop_data.dialogue, item_page*4, min(4,array_length(shop_data.dialogue)-(item_page*4)));
 	
-	if(!in_dialogue){
-		if(UP_KEY && item_option>0) item_option--;
-		if(DOWN_KEY && item_option<array_length(dialogue_temp_array)-1) item_option++;
+	if(!in_dialogue && navigation_cooldown <= 0){
+		var _array_len = array_length(dialogue_temp_array);
+		if(_array_len > 0){
+			if(UP_KEY){
+				item_option = (item_option - 1 + _array_len) % _array_len;
+				navigation_cooldown = 10;
+			}
+			if(DOWN_KEY){
+				item_option = (item_option + 1) % _array_len;
+				navigation_cooldown = 10;
+			}
+		}
 	}
 	
 	while(item_option>array_length(dialogue_temp_array)-1) { item_option--; }
@@ -93,22 +97,33 @@ if(current_tab==3){
 	array_delete(items_temp_array, 0, array_length(items_temp_array));
 	array_copy(items_temp_array, 0, _temp_items_array, item_page*4, min(4,array_length(_temp_items_array)-(item_page*4)));
 	
-	if(!in_dialogue){
-		if(UP_KEY && item_option>0) item_option--;
-		if(DOWN_KEY && item_option<array_length(items_temp_array)-1) item_option++;
+	if(!in_dialogue && navigation_cooldown <= 0){
+		var _array_len = array_length(items_temp_array);
+		if(_array_len > 0){
+			if(UP_KEY){
+				item_option = (item_option - 1 + _array_len) % _array_len;
+				navigation_cooldown = 10;
+			}
+			if(DOWN_KEY){
+				item_option = (item_option + 1) % _array_len;
+				navigation_cooldown = 10;
+			}
+		}
 	}
 	
 	while(item_option>array_length(items_temp_array)-1) { item_option--; }
 }
 
 last_item_page = ceil(array_length(_temp_items_array)/4)-1;
-show_debug_message("Page: " + string(item_page));
-show_debug_message("Last Page: " + string(last_item_page));
-if(keyboard_check_pressed(ord("J")) && item_page>0) item_page--;
-if(keyboard_check_pressed(ord("K")) && item_page<last_item_page) item_page++;
+if(KEY_DEBUG_SHOP_PREV && item_page>0) item_page--;
+if(KEY_DEBUG_SHOP_NEXT && item_page<last_item_page) item_page++;
 
 
 var _item_transaction = function(_t){
+	if(array_length(items_temp_array) == 0 || item_option < 0 || item_option >= array_length(items_temp_array)){
+		return;
+	}
+	
 	var _item = items_temp_array[item_option];
 	var _cost = _item.buy_price;
 	var _profit = _item.sell_price;
@@ -120,8 +135,11 @@ var _item_transaction = function(_t){
 		}
 	}
 	else if(_t==1){
-		array_delete(PLAYERINV, item_option+(item_page*4), 1);
-		PLAYERBAL+=_profit;
+		var _inv_index = item_option+(item_page*4);
+		if(_inv_index >= 0 && _inv_index < PLAYERINVCOUNT){
+			array_delete(PLAYERINV, _inv_index, 1);
+			PLAYERBAL+=_profit;
+		}
 	}
 };
 
@@ -136,7 +154,6 @@ var _pick_dialogue = function(){
 	}
 };
 
-show_debug_message("Inv: " + string(PLAYERINV));
 
 /*------------------------INTERACTION------------------------*/
 if(PLAYER_INTERACT){

@@ -217,6 +217,7 @@
     {"id":{"name":"scr_item_functions","path":"scripts/scr_item_functions/scr_item_functions.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"scr_minigamehandler","path":"scripts/scr_minigamehandler/scr_minigamehandler.yy",},},
+    {"id":{"name":"scr_movement_functions","path":"scripts/scr_movement_functions/scr_movement_functions.yy",},},
     {"id":{"name":"scr_musichandler","path":"scripts/scr_musichandler/scr_musichandler.yy",},},
     {"id":{"name":"scr_pianotiles_songs","path":"scripts/scr_pianotiles_songs/scr_pianotiles_songs.yy",},},
     {"id":{"name":"scr_save_functions","path":"scripts/scr_save_functions/scr_save_functions.yy",},},

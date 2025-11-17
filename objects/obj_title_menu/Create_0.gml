@@ -25,3 +25,16 @@ function select(_id){
 	else{ selection[menu_level] = _id; }
 }
 
+/// @description Refreshes menu display state based on current menu_level
+function refresh_menu_display(){
+	if(menu_level == 4){
+		icon = true;
+		icon_spr = [spr_menu_button_yellow_off, spr_menu_button_yellow_on];
+		icon_margin = 1;
+		icon_shift = max(sprite_get_width(icon_spr[0]),sprite_get_width(icon_spr[1])) + 2*icon_margin;
+		icon_spread = max(0, op_space-max(sprite_get_height(icon_spr[0]),sprite_get_height(icon_spr[1])) + 2*icon_margin);
+	} else {
+		icon = false;
+	}
+}
+

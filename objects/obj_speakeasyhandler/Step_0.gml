@@ -29,6 +29,21 @@ if(!global.spk_song_playing && delay_time<playlist.song_delay){ //between time
 //audio_listener_position(432-PLAYER.x, PLAYER.y, 0);
 audio_listener_position(sound_center[0] + (sound_center[0] - PLAYER.x), PLAYER.y, 0);
 
+//custom distance-based volume control
+if(global.spk_song_playing && audio_is_playing(current_song.sound)){
+	var _distance = point_distance(PLAYER.x, PLAYER.y, sound_center[0], sound_center[1]);
+	var _custom_gain = 1.0;
+	
+	if(_distance < 100){
+		_custom_gain = 1.0;
+	} else if(_distance < 150){
+		_custom_gain = lerp(1.0, 0.2, (_distance - 100) / 50);
+	} else {
+		_custom_gain = 0.2;
+	}
+	
+	audio_sound_gain(current_song.sound, _custom_gain * MVOL, 0);
+}
 
 with(PLAYER){
 	if(room!=rm_speakeasy){ instance_destroy(obj_speakeasyhandler); }

@@ -19,12 +19,12 @@ if(!array_equals(enemies,EMPTYARRAY)){
 	var _animating_count = sprite_get_number(enemies[0][6]);
 
 	if(animating && enemy_subimg<_animating_count-1){
-		if(anim_frame=-1){
+		if(anim_frame==-1){
 			enemy_subimg = 0;
 			anim_frame = 0;
 			anim_count++;
 			anim_finished=true;
-			anim_pauser = instance_create_depth(-800, -800, 800, obj_pauser);
+			anim_pauser = instance_create_depth(-800, -800, 800, PAUSER);
 		}
 		_enemy_sprite = enemies[0][6];
 	

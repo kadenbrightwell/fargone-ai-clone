@@ -11,7 +11,7 @@ switch(B_TRIGGER){
 		break;
 		
 	case 3:
-		B_PHASE=2; show_debug_message("phase set to 2"); 
+		B_PHASE=2;
 		break;
 		
 	case 5:
@@ -54,8 +54,7 @@ switch(B_PHASE){
 		break
 		
 	case 2:
-		if(_bpc=0){
-			show_debug_message("phase 2 switch triggered");
+		if(_bpc==0){
 			alarm_set(3,2*FPS);
 		}
 		BATTLE.optionable=false;
@@ -72,8 +71,8 @@ if(INTERACT_KEY){
 	}
 }
 
-if(keyboard_check_pressed(ord("O"))){ B_TRIGGER=17; }
-if(keyboard_check_pressed(ord("P"))){ B_TRIGGER=18; }
+if(KEY_DEBUG_BATTLE_O){ B_TRIGGER=17; }
+if(KEY_DEBUG_BATTLE_P){ B_TRIGGER=18; }
 
 if(option_phase){
 	tabs[0, 0] = ""; //ATTACK
@@ -170,4 +169,4 @@ c++;
 // Reset position if needed
 if (_sml != menu_level) { tab_option = 0; selected_tab = -1; }
 
-if(keyboard_check_pressed(ord("]"))){B_PHASE=2;}
+if(KEY_DEBUG_BATTLE_BRACKET){B_PHASE=2;}

@@ -214,18 +214,26 @@ function create_textbox(_text_id){
 		case LANG_ENGLISH:
 			TEXTBOX_ID = instance_create_depth(0,0,TEXTBOX_DEPTH,TEXTBOX);
 			with(TEXTBOX_ID){
+				page_number = 0;
+				scr_set_defaults_for_text();
 				scr_game_text(_text_id);
 			}
 			break;
 			
 		case LANG_SPANISH:
-			with(instance_create_depth(0,0,TEXTBOX_DEPTH,TEXTBOX)){
+			TEXTBOX_ID = instance_create_depth(0,0,TEXTBOX_DEPTH,TEXTBOX);
+			with(TEXTBOX_ID){
+				page_number = 0;
+				scr_set_defaults_for_text();
 				scr_game_text_sp(_text_id);
 			}
 			break;
 			
 		case LANG_JAPANESE:
-			with(instance_create_depth(0,0,TEXTBOX_DEPTH,TEXTBOX)){
+			TEXTBOX_ID = instance_create_depth(0,0,TEXTBOX_DEPTH,TEXTBOX);
+			with(TEXTBOX_ID){
+				page_number = 0;
+				scr_set_defaults_for_text();
 				scr_game_text_jp(_text_id);
 			}
 			break;

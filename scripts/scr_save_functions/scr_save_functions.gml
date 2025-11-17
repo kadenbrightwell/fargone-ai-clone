@@ -1,7 +1,7 @@
 //room saving
 function save_room(){
-	var _in = instance_number(obj_item_overworld);
-	var _dn = instance_number(obj_red_door);
+	var _in = instance_number(ITEM_OVERWORLD);
+	var _dn = instance_number(RED_DOOR);
 	var _room_struct = {
 		item_num: _in,
 		item_data: array_create(_in),
@@ -14,7 +14,7 @@ function save_room(){
 	
 		//items
 		for(var _i = 0; _i < _in; _i++){
-			var _ins = instance_find(obj_item_overworld, _i);
+			var _ins = instance_find(ITEM_OVERWORLD, _i);
 			_room_struct.item_data[_i] = {
 				x: _ins.x,
 				y: _ins.y,
@@ -24,7 +24,7 @@ function save_room(){
 		
 		//doors
 		for(var _d = 0; _d < _dn; _d++){
-			var _dins = instance_find(obj_red_door, _d);
+			var _dins = instance_find(RED_DOOR, _d);
 			_room_struct.door_data[_d] = {
 				x: _dins.x,
 				y: _dins.y,
@@ -48,17 +48,17 @@ function load_room(){
 	if(!is_struct(_room_struct)){exit;}
 	
 	//get rid of old items, remake new
-	if(instance_exists(obj_item_overworld)){ instance_destroy(obj_item_overworld); }
+	if(instance_exists(ITEM_OVERWORLD)){ instance_destroy(ITEM_OVERWORLD); }
 	for(var _i = 0; _i < _room_struct.item_num; _i++){
 		var _ii = _room_struct.item_data[_i];
-		with (instance_create_layer(_ii.x, _ii.y, layer, obj_item_overworld)){ item = _ii.i; }
+		with (instance_create_layer(_ii.x, _ii.y, layer, ITEM_OVERWORLD)){ item = _ii.i; }
 	}
 	
 	//get rid of old doors, remake new
-	if(instance_exists(obj_red_door)){ instance_destroy(obj_red_door);}
+	if(instance_exists(RED_DOOR)){ instance_destroy(RED_DOOR);}
 	for(var _d = 0; _d < _room_struct.door_num; _d++){
 		var _dd = _room_struct.door_data[_d];
-		with (instance_create_layer(_dd.x, _dd.y, layer, obj_red_door)){ image_xscale = _dd.xs; }
+		with (instance_create_layer(_dd.x, _dd.y, layer, RED_DOOR)){ image_xscale = _dd.xs; }
 	}
 }
 

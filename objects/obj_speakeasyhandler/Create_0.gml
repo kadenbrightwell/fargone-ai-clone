@@ -51,7 +51,7 @@ function playlist_start(__p, __i=0){
 	audio_play_sound_at(
 		current_song.sound, 
 		sound_center[0], sound_center[1], 0, 
-		50, 250, 1, 
+		100, 250, 1, 
 		false, 1, MVOL, song_pos_s
 	);
 	

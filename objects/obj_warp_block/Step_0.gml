@@ -1,5 +1,5 @@
-if(place_meeting(x, y, PLAYER) && !instance_exists(obj_warp)){
-	var _warp = instance_create_depth(0, 0, -9990, obj_warp);
+if(place_meeting(x, y, PLAYER) && !instance_exists(WARP)){
+	var _warp = instance_create_depth(0, 0, -9990, WARP);
 	_warp.target_rm = target_rm;
 	_warp.target_x = target_x;
 	_warp.target_y = target_y;

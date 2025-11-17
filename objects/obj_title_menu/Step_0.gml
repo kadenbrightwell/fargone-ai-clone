@@ -202,6 +202,9 @@ switch(LANG){
 		break;
 }
 
+//refresh menu display state
+refresh_menu_display();
+
 //get inputs
 up_key = UP_KEY;
 left_key = LEFT_KEY;
@@ -224,7 +227,6 @@ if (accept_key) {
 
     switch (menu_level) {
         case 0:
-			icon = false;
             switch (pos) {
                 case 0:
                     room_goto(rm_init);
@@ -239,7 +241,6 @@ if (accept_key) {
             break;
 
         case 1:
-			icon = false;
             switch (pos) {
                 case 0: break; //controls
                 case 1: menu_level = 4; break; //language
@@ -249,7 +250,6 @@ if (accept_key) {
             break;
 
         case 2:
-			icon = false;
             switch (pos) {
                 case 0:
                     vol_choice = 0;
@@ -274,7 +274,6 @@ if (accept_key) {
             break;
 
         case 3:
-			icon = false;
             switch (pos) {
                 case 0: set_vol_val(vol_choice, 1.00); menu_level = 2; obj_roommusichandler.title_menu_volume_changed(); break;
                 case 1: set_vol_val(vol_choice, 0.75); menu_level = 2; obj_roommusichandler.title_menu_volume_changed(); break;
@@ -286,11 +285,6 @@ if (accept_key) {
             break;
 			
 		case 4:
-			icon = true;
-			icon_spr = [spr_menu_button_yellow_off, spr_menu_button_yellow_on];
-			icon_margin = 1;
-			icon_shift = max(sprite_get_width(icon_spr[0]),sprite_get_width(icon_spr[1])) + 2*icon_margin;
-			icon_spread = max(0, op_space-max(sprite_get_height(icon_spr[0]),sprite_get_height(icon_spr[1])) + 2*icon_margin);
 			switch(pos){
 				case 0: LANG = LANG_ENGLISH; select(0); break;
 				case 1: LANG = LANG_SPANISH; select(1); break;
@@ -302,14 +296,14 @@ if (accept_key) {
 				case 7: menu_level = 1; break;
 			}
 			break;
-			
-		default:
-			icon = false;
-			break;
     }
 
-    // Reset position if needed
-    if (_sml != menu_level) { pos = 0; selection[menu_level] = -1; }
+    // Reset position if needed and refresh display
+    if (_sml != menu_level) { 
+		pos = 0; 
+		selection[menu_level] = -1;
+		refresh_menu_display();
+	}
 
     // Fix option length
     op_length = array_length(option[menu_level]);

@@ -17,7 +17,6 @@ if(room_get_name(room)!=rm_speakeasy){
 
 
 
-if(keyboard_check_pressed(ord("Y"))){
-	show_debug_message("player killed");
+if(KEY_DEBUG_DEATH){
 	player_death();
 }

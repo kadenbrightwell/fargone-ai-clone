@@ -84,6 +84,8 @@
 	#macro PLAYER_INTERACT ( keyboard_check_pressed(vk_enter) || keyboard_check_pressed(ord("E")) )
 		#macro INTERACT_KEY PLAYER_INTERACT // ( keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("G")) )
 		#macro BACK_KEY ( keyboard_check_pressed(vk_backspace) || keyboard_check_pressed(ord("R")) )
+		#macro SHOP_TAB_PREV ( keyboard_check_pressed(ord("Q")) )
+		#macro SHOP_TAB_NEXT ( keyboard_check_pressed(ord("T")) )
 	#macro KEY_MENU keyboard_check(vk_escape)
 		#macro KEY_MENU_RELEASED keyboard_check_released(vk_escape)
 
@@ -180,3 +182,29 @@
 
 //MUSIC & SOUNDS
 #macro MUS_DEVILTOWN snd_mus_Deviltown
+
+//OBJECTS
+#macro PAUSER obj_pauser
+#macro WALL obj_wall
+#macro INTERACT obj_interact
+#macro BATTLEATTACK obj_battleattack
+#macro WARP obj_warp
+#macro ITEM_OVERWORLD obj_item_overworld
+#macro RED_DOOR obj_red_door
+
+//DEBUG KEYS
+#macro KEY_DEBUG_SAVE keyboard_check_pressed(ord("j"))
+#macro KEY_DEBUG_LOAD keyboard_check_pressed(ord("k"))
+#macro KEY_DEBUG_DEATH keyboard_check_pressed(ord("Y"))
+#macro KEY_DEBUG_SHOP_PREV keyboard_check_pressed(ord("J"))
+#macro KEY_DEBUG_SHOP_NEXT keyboard_check_pressed(ord("K"))
+#macro KEY_DEBUG_RADIO_G keyboard_check_pressed(ord("G"))
+#macro KEY_DEBUG_RADIO_H keyboard_check_pressed(ord("H"))
+#macro KEY_DEBUG_RADIO_I keyboard_check_pressed(ord("I"))
+#macro KEY_DEBUG_RADIO_O keyboard_check_pressed(ord("O"))
+#macro KEY_DEBUG_BATTLE_B keyboard_check_pressed(ord("B"))
+#macro KEY_DEBUG_BATTLE_N keyboard_check_pressed(ord("N"))
+#macro KEY_DEBUG_BATTLE_M keyboard_check_pressed(ord("M"))
+#macro KEY_DEBUG_BATTLE_O keyboard_check_pressed(ord("O"))
+#macro KEY_DEBUG_BATTLE_P keyboard_check_pressed(ord("P"))
+#macro KEY_DEBUG_BATTLE_BRACKET keyboard_check_pressed(ord("]"))
